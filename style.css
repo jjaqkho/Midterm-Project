@@ -1,0 +1,149 @@
+body, * {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "InputSans-Regular";
+    src:url('InputSans-Regular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.about {
+  font-size: 30pt;
+  font-family: "InputSans-Regular";
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.about:hover {
+  text-decoration: underline;
+}
+
+.character {
+font-size: 90vh;
+position: absolute;
+top: -20%;
+left: 4%;
+color: black;
+}
+
+.english{
+font-size: 50vh;
+position: absolute;
+top: 15%;
+right: 10%;
+color: black;
+}
+
+.line1 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+}
+
+.line2 {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+  opacity: 0.1;
+}
+
+.line3 {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.refresh:hover {
+  opacity: 1;
+}
+
+.aboutscreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 100;
+  display: none;
+}
+
+.cone {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  background-color: red;
+}
+
+.tools {
+  position: absolute;
+  height: 150px;
+  width: auto;
+  bottom: 200px;
+  right: -1%;
+}
+
+.blinking-cursor {
+    width: 3px;
+    height: 35%;
+    background-color: black;
+    position: absolute;
+    right: 8%;
+    top: 40%;
+    margin-top: -5%;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.backgroundpaper {
+  background-color: #E9D6B7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  opacity: 0.8;
+}
+
+input {
+  z-index: 100;
+  font-size: 50vh;
+  position: absolute;
+  width: 35%;
+  top: 15%;
+  right: 10%;
+  opacity: 0.9;
+  background-color: #EDDEC5;
+  text-align: right;
+  font-family: "Times";
+}
