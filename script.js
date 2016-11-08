@@ -87,7 +87,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(wo[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(wo[9]);
           }
         }).resize();
@@ -123,7 +123,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(ta[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(ta[9]);
           }
         }).resize();
@@ -158,7 +158,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(po[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(po[9]);
           }
         }).resize();
@@ -193,7 +193,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(xu[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(xu[9]);
           }
         }).resize();
@@ -228,7 +228,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(la[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(la[9]);
           }
         }).resize();
@@ -263,7 +263,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(mu[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(mu[9]);
           }
         }).resize();
@@ -298,7 +298,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(qu[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(qu[9]);
           }
         }).resize();
@@ -333,7 +333,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(yu[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(yu[9]);
           }
         }).resize();
@@ -368,7 +368,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(ci[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(ci[9]);
           }
         }).resize();
@@ -403,7 +403,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(bi[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(bi[9]);
           }
         }).resize();
@@ -438,7 +438,7 @@ $(document).ready(function() {
             250) {
             $('.chinese1').html(ni[8]);
           } else if (window.innerHeight < 250 && window.innerHeight >
-            150) {
+            148) {
             $('.chinese1').html(ni[9]);
           }
         }).resize();
@@ -446,7 +446,7 @@ $(document).ready(function() {
         $('.character').addClass("chinese1");
         $('.chinese1').html(" ");
         $(window).resize(function() {
-          if (window.innerHeight < 700 && window.innerHeight > 150) {
+          if (window.innerHeight < 700 && window.innerHeight > 148) {
             $('.chinese1').html(" ");
           }
         }).resize();
