@@ -146,4 +146,5 @@ input {
   background-color: #EDDEC5;
   text-align: right;
   font-family: "Times";
+  outline-width: 0;
 }
